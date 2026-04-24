@@ -35,9 +35,6 @@ HexHub es una herramienta diseñada para desarrolladores y diseñadores que busc
 * [JavaScript](https://developer.mozilla.org/es/docs/Web/JavaScript) - ES6+
 * [Node.js](https://nodejs.org/) - Express.js para persistencia de datos
 
-## Demo en Vivo
-
-Puedes ver la aplicación funcionando aquí: [[Enlace a Vercel](https://colores-ten-kappa.vercel.app/)]
 
 ## Estructura del Proyecto
 
@@ -58,10 +55,11 @@ HexHub/
 │       └── script.js
 ├── index.html
 ├── server.js
+├── server.bat
 └── README.md
 ```
 
-## Instalación
+## Instalación y Uso
 
 1. Clona el repositorio:
    ```bash
@@ -72,9 +70,8 @@ HexHub/
    npm install
    ```
 3. Inicia el servidor local:
-   ```bash
-   npm start
-   ```
+   - **Opción A:** Ejecuta el archivo `server.bat` (solo Windows).
+   - **Opción B:** Ejecuta el comando `npm start`.
 4. Abre `http://localhost:3000` en tu navegador.
 
 ## Autor
